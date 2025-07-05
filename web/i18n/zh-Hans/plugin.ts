@@ -67,7 +67,7 @@ const translation = {
     endpointsDocLink: '查看文档',
     endpointsEmpty: '点击 \'+\' 按钮添加 API 端点',
     endpointDisableTip: '停用 API 端点',
-    endpointDisableContent: '是否要停用 {{name}} 的 API 端点 ？',
+    endpointDisableContent: '是否要停用 {{name}} 的 API 端点？',
     endpointDeleteTip: '移除 API 端点',
     endpointDeleteContent: '是否要移除 {{name}} ？',
     endpointModalTitle: '设置 API 端点',
@@ -124,7 +124,7 @@ const translation = {
     pluginInfo: '插件信息',
     delete: '移除插件',
     deleteContentLeft: '是否要移除 ',
-    deleteContentRight: ' 插件?',
+    deleteContentRight: ' 插件？',
     usedInApps: '此插件正在 {{num}} 个应用中使用。',
   },
   installModal: {
@@ -154,6 +154,7 @@ const translation = {
     next: '下一步',
     pluginLoadError: '插件加载错误',
     pluginLoadErrorDesc: '此插件将不会被安装',
+    installWarning: '此插件不允许安装。',
   },
   installFromGitHub: {
     installPlugin: '从 GitHub 安装插件',
@@ -210,7 +211,7 @@ const translation = {
     clearAll: '清除所有',
   },
   requestAPlugin: '申请插件',
-  submitPlugin: '上传插件',
+  publishPlugins: '发布插件',
   difyVersionNotCompatible: '当前 Dify 版本不兼容该插件，其最低版本要求为 {{minimalDifyVersion}}',
 }
 
